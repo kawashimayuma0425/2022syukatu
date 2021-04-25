@@ -193,6 +193,7 @@ ul{
     display: block;
     border-radius: 10px;
     opacity: 0;
+    transform: translateX(20px);
     transition: 1s;
 }
 
