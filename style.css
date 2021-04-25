@@ -126,7 +126,7 @@ ul{
 
 .contents li.show h2,
 .contents li.show p,
-main .contents li.show img{
+.contents li.show img{
     transform: none;
     opacity: 1;
 }
@@ -139,9 +139,6 @@ main .contents li.show img{
     right: 0;
 }
 
-.contents li:nth-of-type(odd) img{
-    transform: translate(-20px,20px);
-}
 
 .contents li:nth-of-type(even) img{/* 偶数番目の画像を右寄せに ※imgが複数ある場合は適応しない要素はブロック要素にする→.contents imgのところ */
     margin-left: auto;
