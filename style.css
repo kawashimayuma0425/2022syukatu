@@ -145,7 +145,7 @@ ul{
 
 .contents li:nth-of-type(even) img{/* 偶数番目の画像を右寄せに ※imgが複数ある場合は適応しない要素はブロック要素にする→.contents imgのところ */
     margin-left: auto;
-    transform: translate(20px, 20px);/* 右下から出てくる */
+    /* 右下から出てくる */
 }
 
 .contents li:nth-of-type(even) .contentsText{/* 偶数番目のp要素を左寄せにする */
@@ -193,7 +193,6 @@ ul{
     display: block;
     border-radius: 10px;
     opacity: 0;
-    transform: translateX(20px);
     transition: 1s;
 }
 
