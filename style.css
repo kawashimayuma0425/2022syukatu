@@ -126,7 +126,7 @@ ul{
 
 .contents li.show h2,
 .contents li.show p,
-.contents li.show img{
+main .contents li.show img{
     transform: none;
     opacity: 1;
 }
